@@ -1,8 +1,10 @@
 
 
-body{font-family: sans-serif;}
 
-nav{display: flex;}
+/* nav types styles */
+nav{display: flex;
+    justify-content: space-between;
+    align-items: center;}
 
 nav ul{display: flex;
       align-items: center;}
@@ -14,15 +16,45 @@ nav a{
   text-decoration: none
   ;color:black;}
 
+/* Common Shareed styles */
+
+
+body{font-family: sans-serif;
+     font-family: 'openr sans' sans-serif;}
+
 .text-mary{color:#181818;
            font-size: 45px;
            font-weight;}
 
-.text-r{color:#FD6E0A;
-        }  
+.text-r{color:#FD6E0A;}  
 
-.btn-primary{background-color:#FD6E0A;
+.btn-primary{
+background-color:#FD6E0A;
  color:white;
 padding: 15px 35px;
  font-weight: 700;
  border-radius: 5px;}
+
+ /* Header styles */
+.header{
+    background-color: #e6b390;
+      background-image: url('img/header_bg.png');
+      background-repeat: no-repeat;
+      background-position: bottom-right;
+  }
+
+.banner{
+  
+  padding: 30px 30px 30px 150px;
+  align-items: center;
+  display: flex; }
+
+.banner .profile-pic{width: 500px;}
+
+/* Main Section Styles */
+
+/* About Section Styles */
+.about{background:pink;
+       padding:130px;
+       margin: 50px 0px; 
+       border-radius: 10px;}
